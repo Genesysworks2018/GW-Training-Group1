@@ -1,1 +1,1 @@
-# GW-Training-Group1
+# GW-Training
