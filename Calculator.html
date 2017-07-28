@@ -41,7 +41,16 @@
 <td><input id="btn" type=button value="=" OnClick="calc.display.value=eval(calc.display.value)"></td>
 <td><input id="btn" type=button value="/" OnClick="calc.display.value+='/'"></td>
 <td><input id="btn" type=button value="^" onClick="calc.display.value+='^'"></td>
-<td><input id="btn" type=button value="ex" onClick="calc.display.value=split.("^")<td>
+<td><input id="btn" type=button value="ex" onClick="calc.display.value=CalcStuff(calc.display.value)"<td>
+  
+  <script>
+    function CalcStuff(String test) {
+      var res = test.split("^");
+      var a = res[0];
+      var b = res[1];
+      var c = Math.pow(0, 1)
+    }
+    </script>
 </tr>
 <tr>
 <td><input id="btn" type=button value="." OnClick="calc.display.value+='.'"></td>
