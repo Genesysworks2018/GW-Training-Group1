@@ -1,5 +1,4 @@
-.colorChange {
- -  #test:hover {
- -    background: #DC143C;
- -  }
- -}
+table:hover {
+background: #DC143C;
+}
+
